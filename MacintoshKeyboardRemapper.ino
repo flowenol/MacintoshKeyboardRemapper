@@ -1,8 +1,8 @@
-#define CLK_MAC 15
-#define DATA_MAC 14
+#define CLK_MAC 7
+#define DATA_MAC 8
 
-#define CLK_KBD 16
-#define DATA_KBD 10
+#define CLK_KBD 5
+#define DATA_KBD 6
 
 #define CLOCK_START_MSEC 500
 #define CLOCK_TRANSITION_USEC 300
