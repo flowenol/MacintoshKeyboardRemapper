@@ -1,8 +1,8 @@
 #define CLK_MAC 5
 #define DATA_MAC 6
 
-#define CLK_KBD 7
-#define DATA_KBD 8
+#define CLK_KBD 8
+#define DATA_KBD 7
 
 #define CLOCK_START_MSEC 500
 #define CLOCK_TRANSITION_USEC 300
@@ -12,6 +12,8 @@
 #define CLOCK_WRITE_HIGH_USEC 200
 #define MAC_RESP_DELAY_MSEC 240
 #define MAC_DETECT_READY_USEC 300
+
+#define KBD_BUFFER_SIZE 4
 
 // command constants
 const byte MODEL_NUMBER_CMD = 0x16;
@@ -53,7 +55,7 @@ unsigned long kbd_clock_transition_start;
 unsigned long kbd_delay_start;
 
 byte kbd_data_read;
-byte kbd_last_data_read[4];
+byte kbd_last_data_read[KBD_BUFFER_SIZE];
 short kbd_last_data_read_index = -1;
 byte model_number;
 

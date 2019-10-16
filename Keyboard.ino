@@ -61,7 +61,7 @@ void read_data_from_kbd(kbd_state next_state) {
         if (keyboard_state == READ_MODEL_NUMBER) {
           model_number = kbd_data_read;
         } else if (kbd_data_read != TEST_ACK && kbd_data_read != TEST_NAK) {
-          kbd_last_data_read_index = (kbd_last_data_read_index + 1) % 4;
+          kbd_last_data_read_index = (kbd_last_data_read_index + 1) % KBD_BUFFER_SIZE;
           kbd_last_data_read[kbd_last_data_read_index] = kbd_data_read;
         }
   
