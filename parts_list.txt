@@ -1,0 +1,23 @@
+Partlist
+
+Exported from KeyboardRemapper.sch at 22/11/2019 23:16
+
+EAGLE Version 7.2.0 Copyright (c) 1988-2014 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device        Package        Library   Sheet
+
+ATM328   ATMEGA328-20P  ATMEGA328-20P DIL28-3        atmega328 1
+C1       22pF           CAPPTH2       CAP-PTH-SMALL2 SparkFun  1
+C2       22pF           CAPPTH2       CAP-PTH-SMALL2 SparkFun  1
+KBD      RJ9PTH         RJ9PTH        RJ9            SparkFun  1
+MAC      RJ9PTH         RJ9PTH        RJ9            SparkFun  1
+PWR      M01PTH         M01PTH        1X01           SparkFun  1
+R1       1K             RESISTORPTH1  AXIAL-0.3      SparkFun  1
+R2       1K             RESISTORPTH1  AXIAL-0.3      SparkFun  1
+R3       1K             RESISTORPTH1  AXIAL-0.3      SparkFun  1
+R4       1K             RESISTORPTH1  AXIAL-0.3      SparkFun  1
+RS232                   M03PTH        1X03           SparkFun  1
+SPI                     M05PTH        1X05           SparkFun  1
+XTAL     16Mhz          XTAL/S        QS             special   1
